@@ -133,7 +133,7 @@ a:hover {
 .space {
     color: white;
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 23rem;
     border: 1rem;
     border-color: rgba(0, 0, 0, 0.532);
     border-radius: 0.5rem;
@@ -195,7 +195,7 @@ a:hover {
 
 .space2 {
     color: white;
-    margin-left: 1rem;
+    margin-left: 23rem;
     border: 1rem;
     border-color: rgba(0, 0, 0, 0.532);
     border-radius: 0.5rem;
@@ -203,19 +203,19 @@ a:hover {
     text-align: center;
     margin-top: 50%;
     margin-bottom: 7%;
-    display: grid;
+    display: flex;
     justify-content: space-between;
     flex-direction: column;
     width: 50%;
 }
 
 .projects {
-    margin: 0;
+    margin-left: 26.5rem;
     max-width: 5rem;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    grid-template-columns: 1fr;
     gap: 1rem;
+    margin-bottom: 5rem;
 }
 
 .projects-item {
@@ -250,4 +250,20 @@ a:hover {
 .projects-price:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
+}
+
+
+/* RODAPÉ */
+
+.footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: smaller;
+    vertical-align: middle;
+    padding: 1rem;
 }
