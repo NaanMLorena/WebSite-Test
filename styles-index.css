@@ -147,6 +147,17 @@ a:hover {
     width: 50%;
 }
 
+@media screen and (max-height: 768px) {
+    .space {
+        margin-left: 20rem;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .space {
+        margin-left: 19rem;
+    }
+}
 
 /* IMAGEM DE PERFIL */
 
@@ -190,6 +201,26 @@ a:hover {
     margin-bottom: 5%;
 }
 
+@media screen and (max-height: 768px) {
+    .perfil-img img {
+        height: 30rem;
+        margin-left: 3rem;
+    }
+    .perfil-text {
+        height: 30rem;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .perfil-img img {
+        height: 28rem;
+        margin-left: 1.5rem;
+    }
+    .perfil-text {
+        height: 28rem;
+        font-size: 2.5rem;
+    }
+}
 
 /* PROJETOS */
 
@@ -209,6 +240,18 @@ a:hover {
     width: 50%;
 }
 
+@media screen and (max-height: 768px) {
+    .space2 {
+        margin-left: 20rem;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .space2 {
+        margin-left: 19rem;
+    }
+}
+
 .projects {
     margin-left: 26.5rem;
     max-width: 5rem;
@@ -216,6 +259,18 @@ a:hover {
     grid-template-columns: 1fr;
     gap: 1rem;
     margin-bottom: 5rem;
+}
+
+@media screen and (max-height: 768px) {
+    .projects {
+        margin-left: 20.45rem;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .projects {
+        margin-left: 23.5rem;
+    }
 }
 
 .projects-item {
@@ -227,6 +282,12 @@ a:hover {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     max-width: 40rem;
+}
+
+@media screen and (max-height: 720px) {
+    .projects-img img {
+        max-width: 30rem;
+    }
 }
 
 .projects-info {
@@ -245,6 +306,12 @@ a:hover {
     text-align: center;
     font-size: 1rem;
     transition: all 0.2s linear;
+}
+
+@media screen and (max-height: 720px) {
+    .projects-info {
+        font-size: 1.5rem;
+    }
 }
 
 .projects-price:hover {
