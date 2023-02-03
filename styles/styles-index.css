@@ -107,6 +107,22 @@ a:hover {
     
 }
 
+@media (max-width:1000px) {
+
+.navbar {
+    border-radius: 0.8rem;
+}
+
+.container {
+    margin: 0.4rem;
+}
+
+.menu-icon {
+    width: 1.4rem;
+}
+    
+}
+
 
 /* ÍCONE INICIAL */
 
@@ -208,7 +224,7 @@ a:hover {
 @media (max-width: 1000px) {
 
 .content-item {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .content-style {
@@ -382,6 +398,12 @@ a:hover {
 }
 
 @media (max-width: 1000px) {
+
+.sobre-information {
+    margin-inline: 10%;
+    justify-content: center;
+    text-align: center;
+}
 
 .perfil-img img {
     height: 18rem;
