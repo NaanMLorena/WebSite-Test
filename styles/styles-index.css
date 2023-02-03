@@ -111,6 +111,8 @@ a:hover {
 
 .navbar {
     border-radius: 0.8rem;
+    margin: 0.4rem;
+    margin-right: 0.4rem;
 }
 
 .container {
@@ -598,6 +600,14 @@ a:hover {
 
 .footer {
     padding: 0.6rem;
+}
+
+}
+
+@media (max-width:1280px) {
+
+.footer {
+    min-width: 102%;
 }
 
 }
