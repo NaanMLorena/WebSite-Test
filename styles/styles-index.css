@@ -205,7 +205,7 @@ a:hover {
     
 }
 
-@media (max-width: 1360px) {
+@media (max-width: 1000px) {
 
 .content-item {
     font-size: 2rem;
