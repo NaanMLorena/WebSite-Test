@@ -293,6 +293,16 @@ a:hover {
 
 }
 
+@media (max-width: 1360px) {
+
+.title-background {
+    padding-inline: 22rem;
+    padding-block: 0.3rem;
+    font-size: 0.8rem;
+}
+
+}
+
 @media (max-width: 1000px) {
 
 .title-background {
@@ -399,6 +409,25 @@ a:hover {
 
 }
 
+@media (max-width: 1100px) {
+
+.sobre-information {
+    margin-inline: 15%;
+}
+
+.perfil-img img {
+    height: 20rem;
+    border: 0.4rem solid rgba(0, 0, 0, 0.532);
+}
+
+.perfil-text {
+    height: 20rem;
+    width: 20rem;
+    font-size: 1.4rem;
+}
+
+}
+
 @media (max-width: 1000px) {
 
 .sobre-information {
@@ -495,6 +524,9 @@ a:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
+
+
+/* RESPONSIVIDADE DO PROJETOS */
 
 @media (max-width: 1768px) {
 
