@@ -485,9 +485,9 @@ a:hover {
     flex-direction: row;
     padding-left: 50%;
     max-width: 5rem;
-    display: flex;
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
     margin-bottom: 10%;
 }
 
@@ -500,7 +500,14 @@ a:hover {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     max-width: 40rem;
+    transition: all 0.2s linear;
 }
+
+/* .projects-img img:hover {
+    -webkit-transform: scale(0.99);
+    transform: scale(0.99);
+    -webkit-filter: blur(0.06rem);
+} */
 
 .projects-info {
     color: white;
@@ -525,6 +532,23 @@ a:hover {
     transform: scale(1.05);
 }
 
+.project-subtitle {
+    font-size: 1rem;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    white-space: nowrap;
+}
+
+.project-subtitle-style {
+    background-color: rgba(0, 0, 0, 0.632);
+    padding-inline: 4rem;
+    padding-block: 0.4rem;
+    border-radius: 0.5rem;
+}
+
 
 /* RESPONSIVIDADE DO PROJETOS */
 
@@ -542,6 +566,14 @@ a:hover {
 .projects-price {
     font-size: 0.8rem;
     padding: 0.8rem;
+}
+
+.project-subtitle {
+    font-size: 1rem;
+}
+
+.project-subtitle-style {
+    padding-inline: 3.6rem;
 }
 
 }
@@ -580,6 +612,23 @@ a:hover {
     padding: 0.6rem;
 }
 
+.project-subtitle {
+    font-size: 0.8rem;
+}
+
+.project-subtitle-style {
+    padding-inline: 3.4rem;
+    padding-block: 0.3rem;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+.projects {
+    grid-template-columns: 1fr;
+}
+
 }
 
 @media (max-width: 1000px) {
@@ -598,6 +647,15 @@ a:hover {
 .projects-price {
     font-size: 0.4rem;
     padding: 0.4rem;
+}
+
+.project-subtitle {
+    font-size: 0.6rem;
+}
+
+.project-subtitle-style {
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
 }
 
 }
