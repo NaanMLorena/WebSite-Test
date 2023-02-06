@@ -37,11 +37,20 @@ body {
     font-size: 1rem;
     padding-top: 4rem;
     /* Faz com que o cabeçalho não interfira com o resto da página e vice-versa */
-    animation: push 3s alternate;
+    animation: push 4s alternate;
     overflow: overlay;
     margin-right: 0.5rem;
 }
 
+@keyframes push {
+    from {
+        transform: translateY(-91%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
 
 /* NAVBAR */
 
@@ -292,7 +301,7 @@ a:hover {
     font-size: 5rem;
     color: white;
     overflow: hidden;
-    animation: writer 2s steps(20) alternate;
+    animation: writer 4s steps(20) alternate;
 }
 
 /* Formatação do texto principal da página */
@@ -316,16 +325,6 @@ a:hover {
 }
 
 /* Animação do título (máquina de escrever) */
-
-@keyframes push {
-    from {
-        transform: translateY(-30%);
-    }
-
-    to {
-        transform: translateY(0);
-    }
-}
 
 @media (max-width: 1768px) {
 
