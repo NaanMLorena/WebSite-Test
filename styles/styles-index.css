@@ -534,25 +534,38 @@ a:hover {
 } */
 
 .projects {
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
     flex-direction: row;
-    padding-left: 50%;
-    max-width: 5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    margin-bottom: 10%;
+    width: 75%;
+    flex-wrap: nowrap;
+    height: fit-content;
 }
 
 .projects-item {
     background-color: rgba(0, 0, 0, 0.532);
     border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 5%;
+    width: fit-content;
+}
+
+.projects-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
 }
 
 .projects-img img {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
-    max-width: 40rem;
+    width: 40rem;
     transition: all 0.2s linear;
 }
 
@@ -597,7 +610,7 @@ a:hover {
 
 .project-subtitle-style {
     background-color: rgba(0, 0, 0, 0.632);
-    padding-inline: 4rem;
+    padding-inline: 2rem;
     padding-block: 0.4rem;
     border-radius: 0.5rem;
 }
@@ -651,6 +664,11 @@ a:hover {
 
 @media (max-width: 1360px) {
 
+.projects {
+    width: 90%;
+}
+
+
 .projects-img img {
     max-width: 34rem;
 }
@@ -679,7 +697,10 @@ a:hover {
 @media (max-width: 1200px) {
 
 .projects {
+    display: grid;
     grid-template-columns: 1fr;
+    padding-left: 50%;
+    padding-right: 50%;
 }
 
 }
