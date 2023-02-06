@@ -248,24 +248,17 @@ a:hover {
     display: block;
 }
 
-/* RESPONSIVIDADE DO DROPDOWN */
+.mat-content {
+    display: none;
+}
 
-@media (max-width: 1920px) {
+.dropdown .dropbtn {
+    display: block;
+    font-size: 1.3rem;
+}
 
-    .mat-content {
-        display: none;
-    }
-
-    .dropdown .dropbtn {
-        display: block;
-        font-size: 1.3rem;
-    }
-
-    .initial-item {
-        font-size: 1.3rem;
-    }
-
-
+.initial-item {
+    font-size: 1.3rem;
 }
 
 
