@@ -657,6 +657,7 @@ a:hover {
     width: 75%;
     flex-wrap: nowrap;
     height: fit-content;
+    flex-wrap: wrap;
 }
 
 .projects-item {
